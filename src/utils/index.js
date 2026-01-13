@@ -24,8 +24,8 @@ import white from "/assets/images/white.jpg";
 import black from "/assets/images/black.jpg";
 import jwst from "/assets/images/jwst.jpg";
 import ajwst from "/assets/images/ajwst.jpg"
-import explore1 from "/assets/images/explore1.mp4";
-import explore2 from "/assets/images/explore2.mp4";
+import explore1 from "/assets/images/jwst.jpg";
+import explore2 from "/assets/images/ajwst.jpg";
 import chip from "/assets/images/chip.png";
 import frame from "/assets/images/frame.png";
 export const heroVideo = hmv;

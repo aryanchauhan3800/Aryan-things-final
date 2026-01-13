@@ -18,8 +18,7 @@ const Model = () => {
     img: yellowImg,
   })
 
-  // camera control for the model view
-  const cameraControlSmall = useRef();
+   const cameraControlSmall = useRef();
   const cameraControlLarge = useRef();
 
   // model
@@ -93,7 +92,7 @@ const Model = () => {
               }}
               eventSource={document.getElementById('root')}
             >
-              <View.Port />
+              <View.Port/>
             </Canvas>
           </div>
 
