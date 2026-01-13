@@ -22,6 +22,8 @@ import yellow from "/assets/images/yellow.jpg";
 import blue from "/assets/images/blue.jpg";
 import white from "/assets/images/white.jpg";
 import black from "/assets/images/black.jpg";
+import jwst from "/assets/images/jwst.jpg";
+import ajwst from "/assets/images/ajwst.jpg"
 import explore1 from "/assets/images/explore1.mp4";
 import explore2 from "/assets/images/explore2.mp4";
 import chip from "/assets/images/chip.png";
@@ -35,6 +37,8 @@ export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
 
+export const jwst02 = ajwst;
+export const jwst01 = jwst;
 export const appleImg = apple;
 export const searchImg = search;
 export const bagImg = bag;
@@ -58,9 +62,12 @@ import p4 from '/public/assets/audio/p4.mp3';
 import p3 from "/public/assets/audio/p3.mp3";
 import p9 from '/public/assets/audio/p9.mp3';
 
+import p5 from '/public/assets/audio/p5.mp3';
+import p6 from '/public/assets/audio/p6.mp3';
 
 
-
+export {p5} ;
+export {p6} ;
 export {p3} ;
 export { p4};
 export { p9};

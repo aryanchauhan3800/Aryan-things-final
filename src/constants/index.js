@@ -7,9 +7,19 @@ import {
   highlightThirdVideo,
   whiteImg,
   yellowImg,
-} from "../utils";
 
-export const navLists = ["Home", "Explore", "Learn", "About"];
+} from "../utils";
+import Learn from "../components/Learn";
+
+// src/constants/index.js
+export const navLists = [
+  { name: 'Learn', path: '/learn' },  // Actual path for "Learn"
+  { name: 'Home', path: '/' },         // Dummy path to Home
+  { name: 'Products', path: '#' },     // Dummy path
+  { name: 'About', path: '#' },        // Dummy path
+  { name: 'Contact', path: '#' },      // Dummy path
+];
+
 
 export const hightlightsSlides = [
   {

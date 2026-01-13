@@ -1,5 +1,6 @@
 import React from 'react';
-import { appleImg} from '../utils';
+import { Link } from 'react-router-dom';
+import { appleImg } from '../utils';
 import { navLists } from '../constants';
 
 const Navbar = () => {
@@ -15,18 +16,15 @@ const Navbar = () => {
 
         <div className='flex flex-1 justify-center max-sm:hidden pt-4'>
           {navLists.map((nav, index) => (
-            <div 
-              key={index} 
+            <Link
+              key={index}
+              to={nav.path} 
               className='px-5 text-sm cursor-pointer text-gray hover:text-white transition-all'
             >
-              {nav}
-
-
-
-            </div>
+              {nav.name}
+            </Link>
           ))}
         </div>
-
       </nav>
     </header>
   );
